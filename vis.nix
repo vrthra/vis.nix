@@ -4,8 +4,8 @@ stdenv.mkDerivation {
   name = "vis-1.0";
 
   src = fetchurl {
-    url = https://github.com/martanne/vis/archive/7df8140a9ba4f0fbc2c55fa2de5eb789d878d4a0.zip;
-    sha256 = "1w4sq9mc4kflvc2ys93lsnz1bd3irbr2kp6sfq4f542va0s83vc7";
+    url = https://github.com/martanne/vis/archive/472c559a273d3c7b0f5ee92260c5544bc3d74576.zip;
+    sha256 = "4283475d89a73642a2dcaab17cc24760d4ff70f31cb6f94e5d6bf3e2efcd851f";
   };  
 
   nativeBuildInputs = [ makeWrapper ];
